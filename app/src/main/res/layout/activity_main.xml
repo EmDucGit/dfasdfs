@@ -10,11 +10,11 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="440dp"
+        android:layout_marginTop="375dp"
         android:fontFamily="sans-serif-medium"
         android:text="Email"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintHorizontal_bias="0.109"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -79,8 +79,10 @@
         android:layout_marginStart="92dp"
         android:layout_marginTop="12dp"
         android:text="Don't have an account?"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.003" />
 
     <TextView
         android:id="@+id/textView20"
@@ -91,8 +93,10 @@
         android:text="SIGN UP"
         android:textColor="#00BCD4"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView16"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.006" />
 
     <Button
         android:id="@+id/button2"
@@ -119,9 +123,13 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
 
     <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/fashion" />
+        android:id="@+id/imageView3"
+        android:layout_width="408dp"
+        android:layout_height="602dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045"
+        app:srcCompat="@drawable/fashion"
+        tools:layout_editor_absoluteX="-8dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
